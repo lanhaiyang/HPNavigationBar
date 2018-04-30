@@ -61,3 +61,7 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+HPNavigationBar.xcodeproj/project.pbxproj
+
+HPNavigationBar.xcodeproj/project.xcworkspace/contents.xcworkspacedata
