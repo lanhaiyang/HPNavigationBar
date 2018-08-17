@@ -35,3 +35,39 @@ self.hp_backInteraction //是否可以back 手势返回操作
 
 
 ```
+### 调用
+```swift
+
+当前在A 
+
+A->B
+
+- (IBAction)buttonAction:(id)sender {
+
+	let bVC:BVC = Push(storyboardName: "BViewController", identifier: "BViewController")
+ 
+ 	bVC.hp_barBackgroundColor = UIColor.clear
+ 	bVC.hp_barEdgeLineAlpha = 0.01;
+ 	bVC.hp_barAlpha = 0.01;
+ 
+ 	self.navigationController?.pushViewController(bVC, animated: true)
+    
+}
+
+//当前在B
+
+B->C
+
+- (IBAction)buttonAction:(id)sender {
+
+	let cVC:CVC = Push(storyboardName: "CViewController", identifier: "CViewController")
+ 
+ 	cVC.hp_barBackgroundColor = UIColor.red
+ 	cVC.hp_barEdgeLineAlpha = 0.01;
+ 	cVC.hp_barAlpha =1;
+ 
+ 	self.navigationController?.pushViewController(cVC, animated: true)
+    
+}
+
+```

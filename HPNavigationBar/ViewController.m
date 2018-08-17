@@ -30,7 +30,7 @@
 //    self.hp_barAlpha = 0.01;
     UIStoryboard *mainStroyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
     SlideViewController *slideViewController = [mainStroyboard instantiateViewControllerWithIdentifier:@"SlideViewController"];
-    slideViewController.hp_barBackgroundColor = [UIColor redColor];
+    slideViewController.hp_barBackgroundColor = [UIColor clearColor];
     slideViewController.hp_barEdgeLine = YES;
     [self.navigationController pushViewController:slideViewController animated:YES];
 }
