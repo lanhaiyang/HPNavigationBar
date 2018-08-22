@@ -36,7 +36,7 @@ self.hp_backInteraction //是否可以back 手势返回操作
 
 ```
 
-### ** 注意 **
+## ** 注意 **
 
 #### 设置UINavigationControllerDelegate `会造成失效问题`
 
@@ -44,7 +44,7 @@ self.hp_backInteraction //是否可以back 手势返回操作
 self.navigationController?.delegate = self;
 ```
 
-### 调用
+## 调用
 ```swift
 
 当前在A 
