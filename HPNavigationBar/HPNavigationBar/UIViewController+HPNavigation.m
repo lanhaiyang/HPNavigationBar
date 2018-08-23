@@ -21,7 +21,7 @@
         return obj;
     }
     
-    return [UINavigationBar appearance].barTintColor;
+    return self.navigationController.navigationBar.barTintColor;
 }
 
 -(void)setHp_barBackgroundColor:(UIColor *)hp_barBackgroundColor{
