@@ -103,7 +103,7 @@
                 self.toEdgeLine.frame = [self edgeLineFrameForView:self.toVisualEffectView.frame];
                 [to.view addSubview:_toEdgeLine];
                 
-                NSLog(@"from = %lf to = %lf",from.hp_barEdgeLineAlpha,to.hp_barEdgeLineAlpha);
+//                NSLog(@"from = %lf to = %lf",from.hp_barEdgeLineAlpha,to.hp_barEdgeLineAlpha);
                 
                 [UIView setAnimationsEnabled:YES];
                 
